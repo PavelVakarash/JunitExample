@@ -56,7 +56,5 @@ class DictionaryTest {
             assertThrows(IllegalArgumentException.class, () -> dictionary.fromRussian(russian));
         }
     }
-
     // TODO: test fromRussian через CsvFile
-
 }
